@@ -12,7 +12,7 @@ def batch_badge_creator(conference_attendees)
   conference_attendees.each do |name|
   badge_with_name.push(badge_maker(name))
   end
-  return badge_name
+  return badge_with_name
 end
 
 
