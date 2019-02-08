@@ -5,7 +5,7 @@ def badge_maker(name)
 end
 
 array_speakers= ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  rooms = [1,2,3,4,5,6,7]
+  
   
 def batch_badge_creator(array_speakers)
   badge_with_name =[]
