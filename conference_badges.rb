@@ -18,9 +18,9 @@ end
 def assign_rooms(array_speakers)
   speakers_with_room=[]
   speakers.each_with_index{|name,room|
-  assign_with_room.push("Hello, #{name}! You'll be assigned to room #{index + 1}!")
+  speakers_with_room.push("Hello, #{name}! You'll be assigned to room #{index + 1}!")
     }
-   return assign
+   return speakers_with_room
 end 
     
   
