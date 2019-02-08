@@ -5,7 +5,7 @@ def badge_maker(name)
 end
 
 array_speakers= ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
- 
+  rooms = [1,2,3,4,5,6,7]
   
 def batch_badge_creator(array_speakers)
   badge_with_name =[]
@@ -15,12 +15,12 @@ def batch_badge_creator(array_speakers)
   return badge_with_name
 end
 
-def assign_rooms(array_speakers)
+def assign_rooms(array_speakers, rooms)
   speakers_with_room = []
-  rooms = [1,2,3,4,5,6,7]
-  index_counter = 0
-  array_speakers.each do |name, |
-    puts "Hi my name is #name"
+  array_speakers.each do |name, rooms|
+    speakers_with_room.push("Hello, #{name}! You'll be assigned to #{room}")
+  end
+end
     
   
     
