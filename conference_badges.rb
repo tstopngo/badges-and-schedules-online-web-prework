@@ -7,7 +7,7 @@ end
 array_speakers= ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
  
   
-def batch_badge_creator(conference_attendees)
+def batch_badge_creator(array_speakers)
   badge_with_name =[]
   conference_attendees.each do |name|
   badge_with_name.push(badge_maker(name))
