@@ -20,7 +20,7 @@ def assign_rooms(array_speakers)
   array_speakers.each_with_index{|name,room|
   speakers_with_room.push("Hello, #{name}! You'll be assigned to room #{room + 1}!")
     }
-   puts speakers_with_room
+   return speakers_with_room
 end
 
 def printer 
