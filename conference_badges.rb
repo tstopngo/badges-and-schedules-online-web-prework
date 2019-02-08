@@ -15,7 +15,6 @@ def batch_badge_creator(conference_attendees)
   return badge_name
 end
 
-def assign_rooms(speakers)
-  speakers.each do |assign|
+
     
     
