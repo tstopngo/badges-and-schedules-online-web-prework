@@ -6,10 +6,11 @@ end
 
 conference_attendees= ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
  
- 
-def batch_badge_creator(conference_attendees)
   badge_name =[]
+def batch_badge_creator(conference_attendees)
+  
   conference_attendees.each do |name|
   badge_name.push(badge_maker(name))
-    
+  end
+  return badge_name
 end
